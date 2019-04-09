@@ -38,17 +38,17 @@ let rules = [{
 let check = hostFilter.filter(ip, rules);
 // Returns true as it matches 4th rule.
 ```
-> For more use-cases see the [tests](./test/index.js)
+> For more use-cases see the [tests](./test/test.js)
 
 **Params**
 
-* `ip` **{String}**: Accepts IP and Domain names by default
-* `rules` **{Array}**: Filter conditions.
+* `ip` **{String}**: Accepts IP and Domain names.
+* `rules` **{Array}**: Filter rules/conditions.
 * `returns` **{Bool}**: If there is a match it returns `true`, otherwise `false`.
 
 ### Rules
 
-Rule will be an array having 2 parameters `category` and `allowed`.
+Rule will be an object array having 2 parameters `category` and `allowed`.
 
 | Category  | Description   |
 | :------------ | :------------ |
