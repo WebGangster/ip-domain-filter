@@ -34,8 +34,8 @@
 				"mocha": "^6.0.1",
 				"mongoose": "^5.2.4"
 		},
-		"author": "",
-		"license": "ISC",
+		"author": "Aravind NC <aravind_n_c@yahoo.co.in> (http://imwebgangster.com)",	
+		"license": "MIT",
 		"dependencies": {
 				"ip-regex": "^4.0.0",
 				"is-match": "^1.0.0",
