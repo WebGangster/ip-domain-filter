@@ -61,7 +61,7 @@ Rule will be an object array having 2 parameters `category` and `allowed`.
 | ipRange | To check whether the given ip is in a range or not.  |
 | domain | To check wheter the domain matches a given list of domains. |
 
-##Examples
+## Examples
 
 **(1)** Rule using `ip`,
 This will check whether the given ip is available in the allowed list or not.
@@ -94,7 +94,7 @@ let rules = [{
 ]
 ```
 
-###Extended Useage
+### Extended Useage
 **(4)** Rule using `ip` with micromatch,
 This will check whether the given ip is in the format `192.168.*.1`. And the `*` can be any character.
 ```
