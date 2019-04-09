@@ -52,8 +52,8 @@ Rule will be an object array having 2 parameters `category` and `allowed`.
 
 | Category  | Description   |
 | :------------ | :------------ |
-|  ip | For checking a valid IPv6 or IPv6  |
-|  ipRange | To check whether the given ip is in a range or not.  |
+| ip | To check whether the given IP is valid in a list of IP's. |
+| ipRange | To check whether the given ip is in a range or not.  |
 | domain | To check wheter the domain matches a given list of domains. |
 
 ##Examples
