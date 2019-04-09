@@ -11,8 +11,6 @@ npm i ip-domain-filter --save
 ```js
 const hostFilter = require('ip-domain-filter');
 
-let ipToCheck = '192.168.10.1';
-
 let rules = [{
     category: 'ip',
     allowed: ['127.0.0.2', '127.0.0.4', '127.0.0.6']
@@ -35,8 +33,15 @@ let rules = [{
   }
 ];
 
-let check = hostFilter.filter(ip, rules);
+let caseA = '192.168.10.1';
+hostFilter.filter(caseA, rules);
 // Returns true as it matches 4th rule.
+
+let caseB = '192.168.2.1';
+hostFilter.filter(caseB, rules);
+// Returns false as it does'nt match any of the rules.
+
+
 ```
 > For more use-cases see the [tests](./test/test.js)
 
