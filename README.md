@@ -1,5 +1,14 @@
 # ip-domain-filter
-Validates IPs (IPv4 and IPv6) and domain names using micromatch ruleset. Can be used for IP/Domain whitelisting functionality.
+[![npm version](https://img.shields.io/npm/v/ip-domain-filter.svg)](https://www.npmjs.com/package/ip-domain-filter)
+[![Dependency Status](https://david-dm.org/WebGangster/ip-domain-filter.svg)](https://david-dm.org/WebGangster/ip-domain-filter)
+[![devDependency Status](https://david-dm.org/WebGangster/ip-domain-filter/dev-status.svg)](https://david-dm.org/WebGangster/ip-domain-filter#info=devDependencies)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/WebGangster/ip-domain-filter/issues)
+[![Downloads](https://img.shields.io/npm/dm/ip-domain-filter.svg)](https://img.shields.io/npm/dm/ip-domain-filter.svg)
+[![HitCount](http://hits.dwyl.io/WebGangster/ip-domain-filter.svg)](http://hits.dwyl.io/WebGangster/ip-domain-filter)
+
+> Validates IPs (IPv4 and IPv6) and domain names using micromatch ruleset. Can be used for IP/Domain whitelisting functionality.
+
+[![NPM](https://nodei.co/npm/ip-domain-filter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ip-domain-filter)
 
 ## Install
 ```
