@@ -4,7 +4,7 @@
 		"description": "Filter and validates IP, IP Ranges and Domain",
 		"main": "index.js",
 		"scripts": {
-				"test": "./node_modules/.bin/mocha tests/*.js -R spec --ui bdd --timeout 5000",
+				"test": "./node_modules/.bin/mocha test/*.js -R spec --ui bdd --timeout 5000",
 				"prepublish": "npm run test"
 		},
 		"devDependencies": {
